@@ -1,0 +1,4 @@
+set -e
+set -x
+nodejs test/index.js
+nodejs test/index.js browser
