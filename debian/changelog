@@ -1,5 +1,37 @@
-template-repository (1.0-1) unstable; urgency=medium
+node-shasum (1.0.2-4) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove constraints unnecessary since buster:
+    + node-shasum: Drop versioned constraint on nodejs in Depends.
+  * Apply multi-arch hints. + node-shasum: Add :any qualifier for nodejs dependency.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 09 Dec 2022 00:14:57 +0000
+
+node-shasum (1.0.2-3) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Use pkg-js-tools auto test & install
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+  * Add upstream/metadata
+  * Update copyright
+  * Replace Buffer() by Buffer.from()
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 02 Mar 2020 06:25:29 +0100
+
+node-shasum (1.0.2-2) unstable; urgency=medium
+
+  * Bump compat and policy (no changes)
+  * Move to salsa
+
+ -- Bastien Roucariès <rouca@debian.org>  Fri, 01 Jun 2018 15:31:39 +0200
+
+node-shasum (1.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #861453)
+
+ -- Bastien Roucariès <rouca@debian.org>  Sun, 30 Apr 2017 23:51:04 +0200
